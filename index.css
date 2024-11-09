@@ -1,0 +1,69 @@
+body {
+    padding: 16px 48px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+.logo-container {
+    width:60px;
+    height: 60px;
+}
+.logo{
+    width:60px;
+    height: 60px;
+}
+.nav-items ul {
+    display:flex;
+    list-style-type:none;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    li {
+        padding: 0px 16px;
+    }
+
+    :hover {
+        color: blueviolet;
+        cursor: pointer;
+        text-decoration: underline;
+        transition: all .2s ease-in-out;
+        transform: scale(1.2);
+    }
+}
+
+.Restro-card{
+    width: 200px;
+    background-color: #f0f0f0;
+    box-shadow:0cqb;
+    margin: 7px;
+
+}
+.Restro-card:hover{
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+.Restro-card >img {
+    object-fit:fill;
+    width:180px;
+    height:190px;
+    padding:3.5px;
+    margin-block: -20px;
+    
+}
+.Search{
+    padding: 10px;
+}
+.Restro-card >h4{
+    font-size:small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:1.5px;
+}
+.Restro-container {
+    display: flex;
+    flex-wrap:wrap;
+}
